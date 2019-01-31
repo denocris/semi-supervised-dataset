@@ -1,0 +1,97 @@
+/home/asr/tensorflow-cpu/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  return f(*args, **kwds)
+/home/asr/tensorflow-cpu/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  return f(*args, **kwds)
+INFO:tensorflow:Using config: {'_model_dir': '/home/asr/rd_semiSupervisedData/six_set/checkpoints/test-4_m2', '_tf_random_seed': 19830610, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 600, '_session_config': None, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 5000, '_train_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7f61aeb9a048>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+INFO:tensorflow:Running training and evaluation locally (non-distributed).
+INFO:tensorflow:Start train and evaluate loop. The evaluate will happen after 30 secs (eval_spec.throttle_secs) or training is finished.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Summary name learning rate is illegal; using learning_rate instead.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+2019-01-31 18:03:07.107462: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 1 into /home/asr/rd_semiSupervisedData/six_set/checkpoints/test-4_m2/model.ckpt.
+INFO:tensorflow:loss = 0.69301474, step = 1
+INFO:tensorflow:Saving checkpoints for 14 into /home/asr/rd_semiSupervisedData/six_set/checkpoints/test-4_m2/model.ckpt.
+INFO:tensorflow:Loss for final step: 0.3377718.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2019-01-31-17:03:08
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /home/asr/rd_semiSupervisedData/six_set/checkpoints/test-4_m2/model.ckpt-14
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2019-01-31-17:03:10
+INFO:tensorflow:Saving dict for global step 14: accuracy = 0.88138205, auroc = 0.9482762, global_step = 14, loss = 0.2938913
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Signatures INCLUDED in export for Classify: None
+INFO:tensorflow:Signatures INCLUDED in export for Regress: None
+INFO:tensorflow:Signatures INCLUDED in export for Predict: ['prediction', 'serving_default']
+INFO:tensorflow:Restoring parameters from /home/asr/rd_semiSupervisedData/six_set/checkpoints/test-4_m2/model.ckpt-14
+INFO:tensorflow:Assets added to graph.
+INFO:tensorflow:Assets written to: b"/home/asr/rd_semiSupervisedData/six_set/checkpoints/test-4_m2/export/predict/temp-b'1548954191'/assets"
+INFO:tensorflow:SavedModel written to: b"/home/asr/rd_semiSupervisedData/six_set/checkpoints/test-4_m2/export/predict/temp-b'1548954191'/saved_model.pbtxt"
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Summary name learning rate is illegal; using learning_rate instead.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /home/asr/rd_semiSupervisedData/six_set/checkpoints/test-4_m2/model.ckpt-14
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 15 into /home/asr/rd_semiSupervisedData/six_set/checkpoints/test-4_m2/model.ckpt.
+INFO:tensorflow:loss = 0.1950634, step = 15
+INFO:tensorflow:Saving checkpoints for 28 into /home/asr/rd_semiSupervisedData/six_set/checkpoints/test-4_m2/model.ckpt.
+INFO:tensorflow:Loss for final step: 0.07878926.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2019-01-31-17:03:13
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /home/asr/rd_semiSupervisedData/six_set/checkpoints/test-4_m2/model.ckpt-28
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2019-01-31-17:03:15
+INFO:tensorflow:Saving dict for global step 28: accuracy = 0.88746697, auroc = 0.95183146, global_step = 28, loss = 0.311719
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Signatures INCLUDED in export for Classify: None
+INFO:tensorflow:Signatures INCLUDED in export for Regress: None
+INFO:tensorflow:Signatures INCLUDED in export for Predict: ['prediction', 'serving_default']
+INFO:tensorflow:Restoring parameters from /home/asr/rd_semiSupervisedData/six_set/checkpoints/test-4_m2/model.ckpt-28
+INFO:tensorflow:Assets added to graph.
+INFO:tensorflow:Assets written to: b"/home/asr/rd_semiSupervisedData/six_set/checkpoints/test-4_m2/export/predict/temp-b'1548954195'/assets"
+INFO:tensorflow:SavedModel written to: b"/home/asr/rd_semiSupervisedData/six_set/checkpoints/test-4_m2/export/predict/temp-b'1548954195'/saved_model.pbtxt"
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Summary name learning rate is illegal; using learning_rate instead.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /home/asr/rd_semiSupervisedData/six_set/checkpoints/test-4_m2/model.ckpt-28
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 29 into /home/asr/rd_semiSupervisedData/six_set/checkpoints/test-4_m2/model.ckpt.
+INFO:tensorflow:loss = 0.067828365, step = 29
+INFO:tensorflow:Saving checkpoints for 40 into /home/asr/rd_semiSupervisedData/six_set/checkpoints/test-4_m2/model.ckpt.
+INFO:tensorflow:Loss for final step: 0.07376073.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2019-01-31-17:03:18
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /home/asr/rd_semiSupervisedData/six_set/checkpoints/test-4_m2/model.ckpt-40
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2019-01-31-17:03:20
+INFO:tensorflow:Saving dict for global step 40: accuracy = 0.8879804, auroc = 0.9538885, global_step = 40, loss = 0.31277478
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Signatures INCLUDED in export for Classify: None
+INFO:tensorflow:Signatures INCLUDED in export for Regress: None
+INFO:tensorflow:Signatures INCLUDED in export for Predict: ['prediction', 'serving_default']
+INFO:tensorflow:Restoring parameters from /home/asr/rd_semiSupervisedData/six_set/checkpoints/test-4_m2/model.ckpt-40
+INFO:tensorflow:Assets added to graph.
+INFO:tensorflow:Assets written to: b"/home/asr/rd_semiSupervisedData/six_set/checkpoints/test-4_m2/export/predict/temp-b'1548954200'/assets"
+INFO:tensorflow:SavedModel written to: b"/home/asr/rd_semiSupervisedData/six_set/checkpoints/test-4_m2/export/predict/temp-b'1548954200'/saved_model.pbtxt"
